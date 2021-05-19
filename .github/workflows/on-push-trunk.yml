@@ -1,4 +1,4 @@
-name: Publish
+name: on push main
 on:
   push:
     branches:
