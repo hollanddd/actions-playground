@@ -1,6 +1,6 @@
 {
   "name": "@hollanddd/actions-playground",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint './src/**/*.ts'",
