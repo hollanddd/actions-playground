@@ -18,6 +18,11 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@hollanddd'
 
+      - name: Setup git
+        run: |
+          git config user.name ${GITHUB_ACTOR}
+          git config user.email "<>"
+
       - name: Install
         run: npm install
 
